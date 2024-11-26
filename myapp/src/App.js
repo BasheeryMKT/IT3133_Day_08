@@ -4,6 +4,8 @@ import {BrowserRouter as Router,Routes,Route,Link,NavLink} from 'react-router-do
 import AboutUs from './components/AboutUs';
 import Home from './components/Home';
 import ContactUs from './components/ContactUs';
+import Dashboard from './components/Dashboard';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -17,10 +19,14 @@ function App() {
           
           </ul>
         </nav>
+        
+
         <Routes>
           <Route path='/home' element={<Home/>}/>
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/contactus' element={<ContactUs/>}/>
+          <Route path='/dashboard' element={<Dashboard/>}/>
+          <Route path='/login' element={<Login/>}/>
           
         </Routes>
       </Router>
