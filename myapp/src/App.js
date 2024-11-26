@@ -7,10 +7,15 @@ import ContactUs from './components/ContactUs';
 
 function App() {
   return (
-    <div>
-      <ContactUs/>
-      <AboutUs/>
-      <Home/>
+    <div className='App'>
+      <Router>
+        <Routes>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/contactus' element={<ContactUs/>}/>
+          <Route path='/aboutus' element={<AboutUs/>}/>
+        </Routes>
+      </Router>
+      
 
     </div>
     
