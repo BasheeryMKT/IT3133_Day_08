@@ -16,7 +16,8 @@ function App() {
           <li><Link to='home'>Home</Link></li>
           <li><Link to='aboutus'>AboutUs</Link></li>
           <li><Link to='contactus'>ContactUs</Link></li>
-          
+          <li><Link to='dashboard'>Dashboard</Link></li>
+          <li><Link to='login'>Login</Link></li>
           </ul>
         </nav>
         
